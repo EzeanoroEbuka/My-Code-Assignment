@@ -1,7 +1,23 @@
-number = int(input("Enter Number"))
-count = 0
-total = 0
-while count < 10:
-	count = count + 1
-	total = number * count
-	print(str(number) + " " + "*"  +" " + str(count) +  "  " + "=" + "  " + str(total)) 
+multiple = 0
+for number in range(1,13,1):
+	for numbers in range(1,13,1):
+		multiple = numbers * number
+		print(f"{number} * {numbers} = {multiple}\t",end = " ")
+	print("\n")
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
